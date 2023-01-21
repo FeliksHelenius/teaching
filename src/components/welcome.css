@@ -1,0 +1,42 @@
+.welcome {
+  animation-name: welcome;
+  animation-duration: 2s;
+  display: flex;
+  position: relative;
+  background: blue;
+  width: 100vw;
+  height: 20vh;
+  top: 35vh;
+  font-size: 10vh;
+  justify-content: center;
+}
+
+@keyframes welcome {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: blue;
+  }
+}
+
+.projectContainer {
+  display: flex;
+  position: relative;
+  background: white;
+  width: 100vw;
+  height: 50vh;
+  top: 20vh;
+  justify-content: center;
+  align-content: center;
+}
+
+.project {
+  width: 33vw;
+  height: 50vh;
+  border: solid black;
+}
+
+header {
+  position: absolute;
+}
